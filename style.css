@@ -1,0 +1,23 @@
+
+body {
+  background: #ffe6f0;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.splash {
+  text-align: center;
+}
+.enter, .exit {
+  display: inline-block;
+  margin: 1em;
+  padding: 0.5em 1em;
+  background: pink;
+  border-radius: 999px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
