@@ -1,5 +1,5 @@
 
-document.querySelector(".enter").addEventListener("click", function(e) {
-  e.preventDefault();
-  document.body.innerHTML = "<h1>Welcome to citybunny.tv ♡</h1>";
-});
+function enterSite() {
+  document.getElementById("splash").classList.add("hidden");
+  document.getElementById("main").classList.remove("hidden");
+}

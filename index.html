@@ -2,17 +2,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>citybunny.tv</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="splash">
+  <div id="splash" class="splash">
     <h1>this site is 18+ only.</h1>
-    <a href="#" class="enter">♡ enter ♡</a>
-    <a href="https://google.ca" class="exit">exit</a>
+    <div class="buttons">
+      <button class="pill" onclick="enterSite()">♡ enter ♡</button>
+      <a href="https://google.ca" class="pill exit">exit</a>
+    </div>
   </div>
+
+  <div id="main" class="main hidden">
+    <img src="logo.png" alt="citybunny" class="logo"/>
+    <div class="link-buttons">
+      <a class="pill" href="https://onlyfans.com/citybunny" target="_blank">onlyfans</a>
+      <a class="pill" href="https://throne.com/citybunny" target="_blank">wishlist</a>
+      <a class="pill" href="mailto:citybunbun@gmail.com">email me</a>
+      <a class="pill" href="#" target="_blank">♡ spoil me ♡</a>
+    </div>
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>

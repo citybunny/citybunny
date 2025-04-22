@@ -1,23 +1,41 @@
 
 body {
-  background: #ffe6f0;
-  font-family: 'Comic Sans MS', cursive, sans-serif;
+  margin: 0;
+  font-family: 'Comic Sans MS', cursive;
+  background-color: #fde3ec;
+  color: #000;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  margin: 0;
+  overflow: hidden;
 }
-.splash {
+.hidden { display: none; }
+.splash, .main {
   text-align: center;
 }
-.enter, .exit {
-  display: inline-block;
-  margin: 1em;
-  padding: 0.5em 1em;
-  background: pink;
-  border-radius: 999px;
-  text-decoration: none;
+.logo {
+  width: 300px;
+  max-width: 80%;
+  margin-bottom: 2rem;
+}
+.pill {
+  background-color: #f7a6c7;
   color: white;
-  font-weight: bold;
+  padding: 0.7em 1.4em;
+  border-radius: 999px;
+  border: none;
+  text-decoration: none;
+  font-size: 1rem;
+  margin: 0.5rem;
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+.pill:hover {
+  transform: scale(1.05);
+  background-color: #f78cb7;
+}
+.exit {
+  background-color: #ccc;
+  color: #333;
 }
