@@ -1,5 +1,5 @@
 
 function enterSite() {
-  document.getElementById("splash").classList.add("hidden");
-  document.getElementById("main").classList.remove("hidden");
+  document.getElementById("splash-screen").style.display = "none";
+  document.getElementById("main-site").classList.remove("hidden");
 }
